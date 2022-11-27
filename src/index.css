@@ -1,0 +1,35 @@
+
+.image{
+  float: left;
+  width: 40%; 
+  height:40%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+ 
+}
+
+.form_container{
+  width:50%;
+  float: right;
+  margin: 50px;
+}
+
+.rotate_image{
+  animation-name: spin;
+  animation-duration: 5000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+
+
+
+@keyframes spin {
+  from {
+      transform:rotate(0deg);
+  }
+  to {
+      transform:rotate(360deg);
+  }
+}
